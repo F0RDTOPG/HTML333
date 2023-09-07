@@ -1,0 +1,87 @@
+h1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 50%;
+}
+.box button{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    margin-top: -10px;
+}
+body{
+    background-color: rgb(204, 192, 173);
+}
+.box button:hover {
+    background-color: red;
+
+}
+.para{
+    height: 167px;
+}
+/* 
+.box h4{
+    text-align: center;
+}
+.box h2{
+    text-align: center;
+}
+.box p{
+    text-align: center;
+}
+ */
+.box{
+    text-align: center;
+    width: 250px;
+    height: 512px;
+    border: 6px double rgb(29, 49, 32);
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    padding: 18px;
+    margin: 10px;
+    
+    
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 200px;
+    height: 150px;
+    background-image: url("https://img.kudika.ro/storage/articles-content/8/2/7/1578682790/1578682790_1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+}
+/*
+.box1{
+    width: 200px;
+    height: 300px;
+    border: 6px double rgb(25, 32, 26);
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-image: url("https://img.kudika.ro/storage/articles-content/8/2/7/1578682790/1578682790_1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    box-sizing: border-box;
+}
+*/
+.box img{
+    width: 200px;
+    height: 150px;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
